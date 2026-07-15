@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lyricon - Privacy Policy</title>
+  <style>
+    body { font: 16px/1.6 -apple-system, system-ui, sans-serif; max-width: 42rem;
+           margin: 3rem auto; padding: 0 1.25rem; color: #1a1a1a; }
+    h1 { font-size: 1.6rem; } h2 { font-size: 1.15rem; margin-top: 2rem; }
+    code { background: #f2f2f2; padding: 0 .25rem; border-radius: 3px; }
+    .updated { color: #666; font-size: .9rem; }
+    form label { display: block; margin: .75rem 0 .25rem; font-weight: 600; }
+    input, textarea { width: 100%; max-width: 100%; box-sizing: border-box;
+      padding: .5rem; font: inherit; border: 1px solid #ccc; border-radius: 5px; }
+    button { margin-top: .75rem; padding: .5rem 1.25rem; font: inherit;
+      border: 0; border-radius: 6px; background: #1a1a1a; color: #fff; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Lyricon Privacy Policy</h1>
+  <p class="updated">Last updated: 2026-07-15</p>
+
+  <p>Lyricon shows synced lyrics for the song you are currently playing. This
+  policy explains what the app does and does not do with your data. Lyricon has
+  no user accounts and no analytics or tracking.</p>
+
+  <h2>Data we collect</h2>
+  <p><strong>None.</strong> Lyricon does not collect, store, or transmit personal
+  data to us. We operate no servers that receive your data, and we do not track
+  you across apps or websites.</p>
+
+  <h2>Data that stays on your device</h2>
+  <ul>
+    <li><strong>Settings</strong> (theme, sync offset, language choices) are saved
+      locally on your device.</li>
+    <li><strong>Cached lyrics, romanizations, and translations</strong> are stored
+      locally so previously seen songs load faster.</li>
+    <li><strong>Your Spotify sign-in token</strong> (only if you choose to connect
+      Spotify) is stored securely in the iOS Keychain on your device and is never
+      sent to us.</li>
+  </ul>
+
+  <h2>Third-party services</h2>
+  <ul>
+    <li><strong>LRCLIB</strong> (<code>lrclib.net</code>): to find lyrics, the app
+      sends the current song's title, artist, and duration to LRCLIB. This request
+      is not linked to your identity.</li>
+    <li><strong>Spotify</strong> (optional): if you connect Spotify, the app reads
+      your current playback position and track info to sync lyrics. It does not
+      stream audio or post to your account. Your use of Spotify is also governed by
+      <a href="https://www.spotify.com/legal/privacy-policy/">Spotify's Privacy
+      Policy</a>.</li>
+    <li><strong>Apple Music / Now Playing</strong>: the app reads the current
+      playback position from the system to sync lyrics. This stays on your device.</li>
+    <li><strong>Apple Translation framework</strong>: translations run on-device
+      using Apple's Translation framework; downloading a language pack is handled by
+      iOS.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Lyricon is not directed at children and does not knowingly collect data from
+  anyone.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the updated version will be posted at this URL.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about your privacy? Send a message below.</p>
+  <!-- Create a free form at https://formspree.io (or make a Google Form and link
+       to it instead). Paste the endpoint into the action below. No email address
+       is exposed on this page. Until an endpoint is set, this form is inactive. -->
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <label for="email">Your email (optional)</label>
+    <input type="email" id="email" name="email">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</body>
+</html>
